@@ -1,0 +1,44 @@
+===== SYSTEM HEALTH REPORT =====
+Date and Time:
+Sat Nov 21 04:39:36 UTC 2026
+System Uptime:
+ 04:39:36 up 38 min,  1 user,  load average: 0.10, 0.03, 0.01
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.4Gi       575Mi       6.8Gi       3.5Mi       216Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         476G  168G  308G  36% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.3G  955G   1% /
+none            3.8G   80K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  532K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   96K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   96K  3.8G   1% /mnt/wslg/doc
+C:\             476G  168G  308G  36% /mnt/c
+tmpfs           3.8G     0  3.8G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+none            1.0M     0  1.0M   0% /run/credentials/console-getty.service
+tmpfs           761M   12K  761M   1% /run/user/1000
+Running Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  24716 14928 ?        Ss   04:01   0:01 /sbin/init
+root           2  0.0  0.0   3072  1792 ?        Sl   04:01   0:00 /init
+root           6  0.0  0.0   3104  2048 ?        Sl   04:01   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          59  0.0  0.2  50404 15872 ?        S<s  04:01   0:00 /usr/lib/systemd/systemd-journald
+systemd+      81  0.0  0.1  22400 13952 ?        Ss   04:01   0:00 /usr/lib/systemd/systemd-resolved
+root         105  0.1  0.1  34980 11904 ?        Ss   04:01   0:03 /usr/lib/systemd/systemd-udevd
+root         169  0.0  0.0   2880  1792 ?        Ss   04:01   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         173  0.0  0.0   4464  2816 ?        Ss   04:01   0:00 /usr/sbin/cron -f -P
+message+     176  0.0  0.0   8784  4608 ?        Ss   04:01   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+===== REPORT COMPLETED =====
+CPU Usage:
+%Cpu(s):  0.0 us,  1.6 sy,  0.0 ni, 98.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
